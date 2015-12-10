@@ -1,0 +1,16 @@
+{
+  "name": "chipmunk-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A calming syntax theme.",
+  "keywords": [
+    "syntax",
+    "atom",
+    "theme"
+  ],
+  "repository": "https://github.com/italodr/chipmunk-syntax.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.50.0 <2.0.0"
+  }
+}
