@@ -1,14 +1,27 @@
 .source.php {
-  .storage.class {
-      color: @purple;
-  }
-  .support.class {
-      color: @blue;
-  }
-  .entity.namespace {
-      color: @yellow;
-  }
-  .entity.name.class {
-      color: lighten(@orange, 5%);
-  }
+    .storage.class,
+    .storage.extends {
+        color: @purple;
+    }
+    .entity.namespace,
+    .support.namespace {
+        color: @main-lightest;
+    }
+    .support.class,
+    .entity.inherited-class,
+    .entity.name.class {
+        color: lighten(@orange, 5%);
+    }
+    .entity.name.function {
+        color: @cyan;
+    }
+    .keyword.operator.key,
+    .keyword.operator.logical,
+    .keyword.control,
+    .constant {
+        color: @green;
+    }
+    .variable {
+        color: @blue;
+    }
 }
